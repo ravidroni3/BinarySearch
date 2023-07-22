@@ -25,11 +25,11 @@ public class BinarySearch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the number of elements in the sorted array: ");
+        System.out.print("Enter the number of elements ");
         int n = scanner.nextInt();
 
         int[] sortedArray = new int[n];
-        System.out.println("Enter the elements of the sorted array (in ascending order):");
+        System.out.println("Enter the elements in ascending order):");
         for (int i = 0; i < n; i++) {
             sortedArray[i] = scanner.nextInt();
         }
